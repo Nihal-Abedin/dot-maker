@@ -1,0 +1,46 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+.markerContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+
+}
+.btnContainer button {
+  border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.2em 0.8em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.dotMarkerContainer {
+  /* height: 100%; */
+  border: 1px dashed #555555;
+  margin: 1rem;
+}
+.dots{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  border: 2px solid #1a1a1a;
+  transform: translate(-50%, -50%);
+}
